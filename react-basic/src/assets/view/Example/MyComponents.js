@@ -16,6 +16,11 @@ class MyComponent extends React.Component {
       name: event.target.value,
     });
   };
+
+  handleClickButton = () => {
+    console.log("hit the button");
+    alert("click me");
+  };
   render() {
     // let name = "Duy";
 
@@ -31,6 +36,15 @@ class MyComponent extends React.Component {
           name is {this.state.name}
         </div>
         <div className="second">I {this.state.age} year old</div>
+        <div className="third">
+          <button
+            onClick={() => {
+              this.handleClickButton();
+            }}
+          >
+            Click me !
+          </button>
+        </div>
       </div>
     );
   }
