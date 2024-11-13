@@ -12,6 +12,13 @@ class MyComponent extends React.Component {
    * fragment
    */
   handleOnChangeName = (event) => {
+    console.log(
+      event.target.value,
+      "event target: ",
+      event.target,
+      "event object:",
+      event
+    );
     this.setState({
       name: event.target.value,
     });
