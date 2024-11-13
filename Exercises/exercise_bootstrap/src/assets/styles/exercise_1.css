@@ -1,0 +1,20 @@
+/* section 1 */
+.title {
+  font-style: normal;
+  font-family: sans-serif, Arial, Helvetica, sans-serif;
+  background-color: rgb(236, 235, 235);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+}
+/* section 2 */
+
+/* section 3 */
+.footer {
+  background-color: rgb(229, 184, 184);
+  font-size: 30px;
+  font-family: sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-display: center;
+  text-align: center;
+}
