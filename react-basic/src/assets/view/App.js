@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.scss";
 import MyComponent from "./Example/MyComponents";
 import ReactForm from "./Example/ReactForm";
+import ChildComponent from "./Example/ChildComponent";
 
 /*
 2 components: class components
@@ -15,7 +16,7 @@ function App() {
         <p>Hello World Reac.js</p>
         {/* <MyComponent /> */}
         <ReactForm />
-        {/* <MyComponent> </MyComponent> */}
+        {/* <ChildComponent /> */}
       </header>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import ChildComponent from "./ChildComponent";
 
 class ReactForm extends React.Component {
   state = {
@@ -58,6 +59,9 @@ class ReactForm extends React.Component {
             Submit
           </button>
         </form>
+
+        <ChildComponent name={"Child one"} age={"21"} />
+        {/* props: property */}
       </>
     );
   }
